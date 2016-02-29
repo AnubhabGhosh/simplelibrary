@@ -5,7 +5,7 @@
 		<title>Login</title>
 	</head>
 	<body>
-		<img src="/simplelibrary/resources/images/logo.png" alt="Wiley Logo" style="width:372px;height:113px;">
+		<img src="/simplelibrary/resources/images/logo.png" alt="devops Logo" style="width:372px;height:113px;">
 		<form:form action="validate" method="post">
 	   		Enter User Name:<input id="userName" type="text" name="name">
 			<br />
