@@ -4,7 +4,7 @@
 		<title>Insert Book</title>
 	</head>
 	<body>
-		<img src="/simplelibrary/resources/images/logo.png" alt="Wiley Logo" style="width:372px;height:113px;">
+		<img src="/simplelibrary/resources/images/logo.png" alt="devops Logo" style="width:372px;height:113px;">
 		<div>
 			<c:if test="${not empty logInMessage}">
 				<h4>${logInMessage}</h4>
