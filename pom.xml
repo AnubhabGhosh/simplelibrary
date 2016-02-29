@@ -15,11 +15,11 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>wiley-snapshots</id>
+			<id>devops-snapshots</id>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
-			<id>wiley-releases</id>
+			<id>devops-releases</id>
 			<url>http://localhost:8081/nexus/content/repositories/releases</url>
 		</repository>
 	</distributionManagement>
