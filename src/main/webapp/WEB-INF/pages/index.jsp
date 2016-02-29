@@ -4,7 +4,7 @@
 		<link href="<c:url value="/resources/css/application.css" />" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<img src="/simplelibrary/resources/images/logo.png" alt="Wiley Logo" style="width:372px;height:113px;">
+		<img src="/simplelibrary/resources/images/logo.png" alt="devops Logo" style="width:372px;height:113px;">
 		<h3><font color="brown">${welcomeMessage}</font></h3>
 		<table id="books">
 			<tr>
