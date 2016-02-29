@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.2.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd"
+                   logicalFilePath="insert_data">
+    <changeSet logicalFilePath="path-independent"  author="anubhab.ghosh" id="002">
+        <insert tableName="books">
+            <column name="id" valueNumeric="1"/>
+            <column name="title" value="A Song of Ice and Fire"/>
+            <column name="author" value="George R. R. Martin"/>
+            <column name="price" valueNumeric="1500"/>
+        </insert>
+        <rollback>delete from books where id=1</rollback>
+    </changeSet>
+</databaseChangeLog>
